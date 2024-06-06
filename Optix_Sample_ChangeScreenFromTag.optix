@@ -1,0 +1,72 @@
+Project:
+ Name: Optix_Sample_ChangeScreenFromTag
+ GUID: b3ca403e2822af09c24ce75043ac6aef
+ ProjectNamespaceIndex: 14
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.4
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 1.2
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 4.0
+  4:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  5:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 12.4
+  6:
+   Uri: 'urn:FTOptix:UI:Net'
+   Module: FTOptix.UI.Net
+   Version: 12.4
+  7:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:Retentivity:Net'
+   Module: FTOptix.Retentivity.Net
+   Version: 1.0
+  9:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 6.1
+  10:
+   Uri: 'urn:FTOptix:HMIProject:Net'
+   Module: FTOptix.HMIProject.Net
+   Version: 4.4
+  11:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 2.0
+  12:
+   Uri: 'urn:FTOptix:NativeUI:Net'
+   Module: FTOptix.NativeUI.Net
+   Version: 1.0
+  13:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 3.0
+ Statistics:
+  TotalNodeCount: 320
+  Objects: 111
+  ObjectTypes: 7
+  Variables: 201
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 1
+  References: 1
+  ReferenceTypes: 0
+  Files: 21
+ Nodes:
+ - File: Nodes/Optix_Sample_ChangeScreenFromTag.yaml

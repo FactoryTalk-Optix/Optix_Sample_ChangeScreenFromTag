@@ -1,0 +1,30 @@
+Name: SomeScreens
+Type: FolderType
+Children:
+- Name: MyBaseScreen1
+  Id: g=38784cac453845506098dd080b5b233f
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: Label1
+    Type: Label
+  - Name: Label2
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ScreenId"
+  - Name: BackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#008000"

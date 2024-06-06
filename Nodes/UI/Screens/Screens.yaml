@@ -1,0 +1,86 @@
+Name: Screens
+Id: g=f19534d94ec2a47ccc8ea9386a48ac83
+Type: FolderType
+Children:
+- Name: MyBaseScreen4
+  Id: g=82a7d45a17018ff36be113c5fa731bc9
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Label1
+    Type: Label
+  - Name: Label2
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ScreenId"
+  - Name: BackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#ff0000"
+- File: SomeScreens/SomeScreens.yaml
+- File: MoreScreens/MoreScreens.yaml
+- Name: MyBaseScreen3
+  Id: g=16876b02cda77b5afbb94ff2cc14b1b5
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+  - Name: Label1
+    Type: Label
+  - Name: Label2
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ScreenId"
+  - Name: BackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#00ff00"
+- Name: MyBaseScreen5
+  Id: g=0a814d76908e352075a588b46cf34d69
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScreenId
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+  - Name: Label1
+    Type: Label
+  - Name: Label2
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ScreenId"
+  - Name: BackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#00ff00"
